@@ -3,6 +3,15 @@ body{
     margin: 0;
     background-color: black;   
 }
+#ligt{
+    /* margin-right: 10px; */
+    /* display: none; */
+    width: 11.5em;
+    height: 100%;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 500px solid rgb(245, 221, 8);
+}
 header{
     padding: 10px;
     background-color: rgb(134, 130, 130);
@@ -31,6 +40,8 @@ main{
 main .container {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
+   
 }
 main .room{
     width: 13em;
@@ -67,30 +78,11 @@ main .room{
     border-radius: 50% 50%;
     background-color: rgb(153, 144, 144);
 }
-main .ligt{
- /*    position: absolute;
+main .room-ligt{
     display: flex;
-    width: 100%;
-    height: 59%;
-    margin-top: 300px;
-    border-right: 200px solid transparent;
-    border-left: 200px solid transparent;
-    background-color: rgb(245, 221, 8);
-    border-bottom: 100% solid transparent; */
-
-   /*  position: absolute;
-    display: flex;
-    width: 50%;
-    height: 300px; 
-    margin-top: 300px;
-    border: 3px solid rgb(245, 221, 8); 
-    background: rgb(245, 221, 8);
-    -webkit-transform: skew(50deg);
-    -moz-transform: skew(50deg);
-    -ms-transform: skew(50deg);
-    -o-transform: skew(50deg);
-    transform: skew(50deg); */
+    justify-content: center;
 }
+
 
 /* h1{
     color: white;

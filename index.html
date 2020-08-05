@@ -9,7 +9,7 @@
 <body>
     <header>
         <nav class="nav-bar">
-            <button class="style-button">Turn on the light</button>
+            <button onclick="myFunction()" class="style-button">Turn on the light</button>
         </nav>
     </header>
     <main>
@@ -18,12 +18,29 @@
                 <div class="wire"></div>
                 <div class="lamp"></div>
                 <div class="light-bulb"></div>
-            </div>
-            <div class="ligt">
-               <!--  <h1>Lo esencial es invisible a los ojos</h1> -->
-            </div>
+            </div> 
+            <div id="ligt">
+                <!--  <h1>Lo esencial es invisible a los ojos</h1> -->
+             </div> 
         </section>
+        <!-- <section class="room-ligt">
+            <div class="ligt">
+                 <h1>Lo esencial es invisible a los ojos</h1>
+             </div>
+        </section> -->
+       
     </main>
+    
+<script>
+    function myFunction() {
+    var onOFF = document.getElementById("ligt");
+    if (onOFF.style.display === "none") {
+        onOFF.style.display = "block";
+    } else {
+        onOFF.style.display = "none";
+    }
+}
+</script>
     
 </body>
 </html>
