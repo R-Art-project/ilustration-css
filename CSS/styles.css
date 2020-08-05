@@ -5,12 +5,21 @@ body{
 }
 #ligt{
     /* margin-right: 10px; */
-    /* display: none; */
-    width: 11.5em;
-    height: 100%;
+    display: none;
+    width: 11em;
+    height: 36%;
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 500px solid rgb(245, 221, 8);
+    position: absolute;
+}
+h1{
+    color: black;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center; 
+    align-self: flex-end;
+    position: absolute;
+    margin-top: 450px;      
 }
 header{
     padding: 10px;
@@ -21,7 +30,6 @@ header .nav-bar{
     display: flex;
     justify-content: flex-end;
     margin-right: 30px;
-
 }
 header .style-button{
     padding: 10px;
@@ -40,29 +48,29 @@ main{
 main .container {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-   
+    flex-wrap: wrap;  
 }
 main .room{
-    width: 13em;
-    height: 20em;
+    height: 21em;
     display: flex;    
 }
 .lamp {
-    position: relative;
     width: 12em;
     height: 5em;
     align-self: flex-end;
     margin-bottom: 20px;
-    border-radius: 50% 50% 3% 3%;
-    background-color: rgb(63, 58, 58);
+    border: 2px solid rgb(63, 58, 58); 
+    background: rgb(63, 58, 58);
+    -moz-border-radius: 100px 100px 0 0;
+    -webkit-border-radius: 100px 100px 0 0;
+    border-radius: 100px 100px 0 0;
     z-index: 2;
   }
 .wire{
     position: absolute;
     justify-content: center;
     width: 5px;
-    height: 14em;
+    height: 15em;
     margin-left: 6em;
     background-color: rgb(63, 58, 58);
     z-index: 3;
@@ -78,15 +86,6 @@ main .room{
     border-radius: 50% 50%;
     background-color: rgb(153, 144, 144);
 }
-main .room-ligt{
-    display: flex;
-    justify-content: center;
-}
 
 
-/* h1{
-    color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    text-align: center;
-    
-} */
+
