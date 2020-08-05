@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    margin: 0;
+    background-color: black;   
+}
+header{
+    padding: 10px;
+    background-color: rgb(134, 130, 130);
+}
+
+header .nav-bar{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 30px;
+
+}
+header .style-button{
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+}
+.style-button:hover{
+    background-color: rgb(245, 221, 8);
+    box-shadow: 0 1px 6px 0 #20212447;    
+}
+main{
+    
+}
+main .container {
+    display: flex;
+    justify-content: center;
+}
+main .room{
+    width: 13em;
+    height: 20em;
+    display: flex;    
+}
+.lamp {
+    position: relative;
+    width: 12em;
+    height: 5em;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    border-radius: 50% 50% 3% 3%;
+    background-color: rgb(63, 58, 58);
+    z-index: 2;
+  }
+.wire{
+    position: absolute;
+    justify-content: center;
+    width: 5px;
+    height: 14em;
+    margin-left: 6em;
+    background-color: rgb(63, 58, 58);
+    z-index: 3;
+}
+.light-bulb{
+    position: absolute;
+    align-self: flex-end;
+    justify-content: center;
+    margin-left: 5em;
+    width: 40px;
+    height: 40px;
+    z-index: 1;
+    border-radius: 50% 50%;
+    background-color: rgb(153, 144, 144);
+}
+main .ligt{
+ /*    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 59%;
+    margin-top: 300px;
+    border-right: 200px solid transparent;
+    border-left: 200px solid transparent;
+    background-color: rgb(245, 221, 8);
+    border-bottom: 100% solid transparent; */
+
+   /*  position: absolute;
+    display: flex;
+    width: 50%;
+    height: 300px; 
+    margin-top: 300px;
+    border: 3px solid rgb(245, 221, 8); 
+    background: rgb(245, 221, 8);
+    -webkit-transform: skew(50deg);
+    -moz-transform: skew(50deg);
+    -ms-transform: skew(50deg);
+    -o-transform: skew(50deg);
+    transform: skew(50deg); */
+}
+
+/* h1{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+} */
